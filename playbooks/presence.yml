@@ -1,8 +1,8 @@
 ---
 - hosts: all
-  remote_user: ansible
+  remote_user: root
   tasks:
-#    - name: Ping hosts
-#      ping:
+    - name: Ping hosts
+      ping:
     - name: run this command and ignore the result
       shell: echo Hoi || /bin/true
