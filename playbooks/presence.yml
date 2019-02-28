@@ -2,5 +2,7 @@
 - hosts: all
   remote_user: ansible
   tasks:
-    - name: Ping hosts
+#    - name: Ping hosts
 #      ping:
+    - name: run this command and ignore the result
+       shell: /usr/bin/somecommand || /bin/true
