@@ -3,4 +3,4 @@
   remote_user: ansible
   tasks:
     - name: Ping hosts
-      ping:
+#      ping:
