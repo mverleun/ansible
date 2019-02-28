@@ -5,4 +5,4 @@
 #    - name: Ping hosts
 #      ping:
     - name: run this command and ignore the result
-       shell: /usr/bin/somecommand || /bin/true
+      shell: echo Hoi || /bin/true
